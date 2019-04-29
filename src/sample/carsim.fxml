@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane prefHeight="695.78125" prefWidth="895.7843017578125" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#404040" height="230.88201904296875" stroke="BLACK" strokeType="INSIDE" width="895.7843017578125" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Text fx:id="textgear" rotate="0.0" scaleX="3.2524458087458124" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="SILNIK:" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="50.0" />
+      </GridPane.margin>
+    </Text>
+    <Text id="textgear" rotate="0.0" scaleX="3.2524458087458124" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="BIEG :" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="50.0" />
+      </GridPane.margin>
+    </Text>
+    <Text id="textgear" rotate="0.0" scaleX="3.2524458087458124" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="KM/H :" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="50.0" />
+      </GridPane.margin>
+    </Text>
+    <Text id="textgear" fx:id="silnikStatus" rotate="0.0" scaleX="3.3025095197536456" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="OFF" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="170.0" />
+      </GridPane.margin>
+    </Text>
+    <Text id="textgear" fx:id="biegValue" rotate="0.0" scaleX="3.3025095197536456" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="170.0" />
+      </GridPane.margin>
+    </Text>
+    <Text id="textgear" fx:id="predkoscValue" rotate="0.0" scaleX="3.3025095197536456" scaleY="5.974853974458882" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="LEFT" wrappingWidth="0.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="170.0" />
+      </GridPane.margin>
+    </Text>
+    <Circle fill="#ff3333" radius="100.0" rotate="0.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="20.0" />
+      </GridPane.margin>
+    </Circle>
+    <Text scaleX="1.5183092473521933" scaleY="2.6102850989528146" strokeType="OUTSIDE" strokeWidth="0.0" text="1000" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets bottom="80.0" left="15.0" />
+      </GridPane.margin>
+    </Text>
+    <Text scaleX="1.5183092473521933" scaleY="2.6102850989528146" strokeType="OUTSIDE" strokeWidth="0.0" text="2000" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets bottom="160.0" left="40.0" />
+      </GridPane.margin>
+    </Text>
+    <Text scaleX="1.5183092473521933" scaleY="2.6102850989528146" strokeType="OUTSIDE" strokeWidth="0.0" text="6000" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets bottom="160.0" left="180.0" />
+      </GridPane.margin>
+    </Text>
+    <Text scaleX="1.5183092473521933" scaleY="2.6102850989528146" strokeType="OUTSIDE" strokeWidth="0.0" text="0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets bottom="70.0" left="10.0" top="70.0" />
+      </GridPane.margin>
+    </Text>
+    <Text scaleX="1.5183092473521933" scaleY="2.6102850989528146" strokeType="OUTSIDE" strokeWidth="0.0" text="4000" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets bottom="200.0" left="110.0" />
+      </GridPane.margin>
+    </Text>
+    <Line id="" fx:id="line" endX="80.0" rotate="0.0" startX="-80.0" strokeWidth="5.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <GridPane.margin>
+        <Insets left="40.0" />
+      </GridPane.margin>
+    </Line>
+    <ImageView fitHeight="464.99267984584327" fitWidth="876.9999389648438" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.rowIndex="0" GridPane.rowSpan="2">
+      <image>
+        <Image url="@../../../../../../IdeaProjects/carsim/src/sample/c3_r.jpg" />
+      </image>
+    </ImageView>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
